@@ -1,0 +1,25 @@
+{
+  "name": "semardp",
+  "version": "1.0.0",
+  "description": "Proyecto del semillero SEMARD - Dashboard MQTT",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "dependencies": {
+    "bcryptjs": "*",
+    "body-parser": "*",
+    "cors": "*",
+    "express": "*",
+    "jsonwebtoken": "*",
+    "mongodb": "^2.2.5",
+    "mongoose": "*",
+    "mqtt": "^2.18.3",
+    "passport": "*",
+    "passport-jwt": "*",
+    "socket.io": "^2.1.1"
+  },
+  "author": "Litem",
+  "license": "ISC"
+}

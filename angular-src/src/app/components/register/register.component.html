@@ -1,0 +1,22 @@
+<h2 class="page-header">Registro</h2>
+<form (submit)="onRegisterSumbit()">
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputEmail4">Nombre completo</label>
+      <input type="text" [(ngModel)]="name" name="name" class="form-control"  placeholder="Nombre">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputPassword4">Nombre de usuario</label>
+      <input type="text" [(ngModel)]="username" name="username" class="form-control"  placeholder="Usuario">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputAddress">Correo electrónico</label>
+    <input type="email" [(ngModel)]="email" name="email" class="form-control" placeholder="E-Mail">
+  </div>
+  <div class="form-group">
+    <label for="inputAddress2">Contraseña</label>
+    <input type="password" [(ngModel)]="password" name="password" class="form-control" placeholder="********">
+  </div>
+  <button type="Submit" class="btn btn-primary" value="Submit">Registrarse</button>
+</form>
